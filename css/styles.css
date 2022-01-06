@@ -65,19 +65,19 @@ main{
     flex-wrap: wrap;
     padding:0 10%;
 }
-.user-profile,.connections{
+#user-profile,#connections{
     margin: 20px;
     padding: 20px 0;
     font-family: 'Balsamiq Sans';
 }
-.user-profile{
+#user-profile{
     padding-left: 10%;
 }
 .card{
     margin-bottom: 60px;
 }
-/*tarjetas del .user-profile*/
-.user-profile .card{
+/*tarjetas del #user-profile*/
+#user-profile .card{
     width: 500px;
     border: 2px solid rgb(150, 150, 150);
 }
@@ -142,19 +142,19 @@ main{
 
 
 /*aside: connections*/
-.connections{
+#connections{
     padding-right: 10%;
 }
-.connections .user-image{
+#connections .user-image{
     height: 40px;
     position:relative;
     border: 2px solid rgb(150, 150, 150);
     border-radius: 50%;
 }
-.connections .card{
+#connections .card{
     border: 2px solid rgb(150, 150, 150);
 }
-.connections span.decorated{
+#connections span.decorated{
     background-color: rgb(150, 150, 150);
     display: inline-block;
     color: white;
@@ -163,7 +163,7 @@ main{
     text-align: center;
 }
 
-.connections .card-header{
+#connections .card-header{
     height: 60px;
     padding:0 20px;
 }
@@ -176,13 +176,13 @@ main{
     align-items: center;
     justify-content: space-between;
 }
-.connections .user-info{
+#connections .user-info{
     display: flex;
     flex-direction: row;
     align-items: center;
     font-size: 20px;
 }
-.connections .user-info>*{
+#connections .user-info>*{
     margin-right: 5px;
 }
 .user-actions .action-icon{
